@@ -1,0 +1,65 @@
+<html lang="en">
+    <head>
+        <title>Lab 8</title>
+    </head>
+    <body>
+        <div id="q1"></div>
+        <div id="q2"></div>
+        <div id="q3"></div>
+        <div id="q4"></div>
+        <div id="q5"></div>
+        <div id="q6"></div>
+        <div id="q7"></div>
+        <div id="q8"></div>
+        <div id="q9"></div>
+        <div id="q10"></div>
+        <div id="q11"></div>
+        <div id="q12"></div>
+        <script>
+            let num1 = 10; 
+            let num2 = 5;
+
+            document.getElementById("q1").innerHTML = num1 + num2;
+            document.getElementById("q2").innerHTML = num1 - num2;
+            document.getElementById("q3").innerHTML = num1 * num2;
+            document.getElementById("q4").innerHTML = num1 / num2;
+            
+            let firstName = "Wei";
+            let lastName = "Zhang";
+
+            document.getElementById("q5").innerHTML = firstName + " " + lastName;
+
+            let x = 5;
+            var y = 10;
+
+            document.getElementById("q6").innerHTML = x;
+            document.getElementById("q7").innerHTML = y;
+
+            x = 8;
+            y = 15;
+
+            document.getElementById("q8").innerHTML = x;
+            document.getElementById("q9").innerHTML = y;
+
+            let counter = 0;
+            for (;counter < 5; counter++) {}
+
+            document.getElementById("q10").innerHTML = counter;
+
+            let firstNumber = prompt("Enter first number:");
+            let secondNumber = prompt("Enter second number:")
+
+            let numb1 = parseFloat(firstNumber);
+            let numb2 = parseFloat(secondNumber);
+
+            document.getElementById("q11").innerHTML = numb1 + numb2;
+
+            let age = 35;
+
+            let stringAge = age.toString();
+
+            document.getElementById("q12").innerHTML = stringAge + " years old."
+
+        </script>
+    </body>
+</html>
